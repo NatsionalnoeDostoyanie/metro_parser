@@ -83,7 +83,7 @@ class MetroParser:
                 )
             else:
                 l.error(
-                    "Ошибка запроса:\n"
+                    f"Error while trying to fetch products for tradecenter {tradecenter_id}:\n"
                     f"{MetroURLs.METRO_GRAPHQL_URL.value}\n"
                     "query:\n"
                     f"{query}\n\n"
